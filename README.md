@@ -1,5 +1,4 @@
-### Hi there 👋
-
+#### ✨ yang penting haayuuu... meluncurr... ✨
 <!--
 **paralun/paralun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

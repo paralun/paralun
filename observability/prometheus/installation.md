@@ -4,7 +4,7 @@ wget -q --show-progress --https-only --timestamping \
   https://github.com/prometheus/prometheus/releases/download/v2.53.3/prometheus-2.53.3.linux-amd64.tar.gz
 ```
 
-# Install AlmaLinux
+# Install on AlmaLinux
 ```
 # Add User
 sudo groupadd --system prometheus
@@ -47,6 +47,7 @@ Documentation=https://prometheus.io/docs/introduction/overview/
 [Service]
 User=prometheus
 Group=prometheus
+Restart=always
 Type=simple
 
 ExecStart=/usr/local/bin/prometheus \\
